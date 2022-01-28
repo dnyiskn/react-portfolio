@@ -4,11 +4,13 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import HeroImage from "../src/components/HeroImage";
 import AboutMe from "../src/components/AboutMe";
+import Contact from "./components/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
     <HeroImage />
     <AboutMe />
+    <Contact />
   </React.StrictMode>,
   document.getElementById("root")
 );

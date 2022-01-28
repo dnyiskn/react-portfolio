@@ -16,3 +16,10 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
 ];
+export const contactInfo = [
+  {
+    phone: "203-399-4005",
+    email: "dnyiskn@gmail.com",
+    github: "https://github.com/dnyiskn",
+  },
+];
