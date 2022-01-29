@@ -1,8 +1,15 @@
+import Typewriter from "typewriter-effect";
+
 function HeroImage() {
   return (
     <div className="flex flex-col justify-center items-center container mx-auto h-screen">
-      <h1 className="text-6xl p-5">Daniel Isaksen</h1>
-      <span className="text-4xl">Front End Developer</span>
+      <Typewriter
+        options={{
+          strings: ["Daniel Isaksen", "Front End Developer"],
+          autoStart: true,
+          loop: true,
+        }}
+      />
     </div>
   );
 }
