@@ -2,7 +2,7 @@ import { contactInfo } from "../data";
 
 function Contact() {
   return (
-    <section>
+    <section className="max-w-screen-md mt-5 bg-gradient-to-r from-green-800 to-green-500">
       <h2 className="text-4xl">Contact</h2>
       {contactInfo.map((info) => (
         <ul className="text-lg">
