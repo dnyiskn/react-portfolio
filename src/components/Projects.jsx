@@ -2,7 +2,7 @@ import { projects } from "../data";
 
 function Projects() {
   return (
-    <section>
+    <section className="container">
       <div>
         {projects.map((project) => (
           <a href={project.link} key={project.image}>
