@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <section className="container bg-gradient-to-l from-blue-800 to-blue-500 rounded max-w-screen-md">
+    <section className="container p-5 text-slate-200 bg-zinc-700 hover:bg-gradient-to-l from-blue-800 to-blue-500 rounded max-w-screen-md">
       <h2 className="text-4xl pb-3">About Me</h2>
       <p className="text-lg">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
