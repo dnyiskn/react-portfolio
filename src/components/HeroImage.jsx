@@ -1,8 +1,8 @@
 import Typewriter from "typewriter-effect";
-
+import CircleAnimation from "./CircleAnimation";
 function HeroImage() {
   return (
-    <div className="flex flex-col justify-center items-center container mx-auto h-screen">
+    <div className="hero-image relative flex flex-col justify-center items-center container bg-cover mx-auto h-screen">
       <Typewriter
         options={{
           strings: ["Daniel Isaksen", "Front End Developer"],
@@ -10,6 +10,7 @@ function HeroImage() {
           loop: true,
         }}
       />
+      <CircleAnimation />
     </div>
   );
 }
