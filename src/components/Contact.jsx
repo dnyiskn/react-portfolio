@@ -6,10 +6,16 @@ function Contact() {
       <h2 className="text-4xl pb-3">Contact</h2>
       {contactInfo.map((info) => (
         <ul className="text-lg">
-          <li>Telephone: {info.phone}</li>
-          <li>Email: {info.email}</li>
           <li>
-            <a href={info.github}>Github: {info.github}</a>
+            <span className="font-medium">Telephone</span>: {info.phone}
+          </li>
+          <li>
+            <span className="font-medium">Email</span>: {info.email}
+          </li>
+          <li>
+            <a href={info.github}>
+              <span className="font-medium">Github</span>: {info.github}
+            </a>
           </li>
         </ul>
       ))}
