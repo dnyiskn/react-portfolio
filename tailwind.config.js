@@ -7,6 +7,10 @@ module.exports = {
         "spin-med": "spin 20.7s linear infinite",
         "spin-fast": "spin 20.5s linear infinite",
       },
+      colors: {
+        git: "#f1502f",
+        linkedIn: "#0075B7",
+      },
     },
   },
   plugins: [],

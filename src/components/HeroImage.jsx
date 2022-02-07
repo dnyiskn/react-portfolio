@@ -1,4 +1,6 @@
 import Typewriter from "typewriter-effect";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import CircleAnimation from "./CircleAnimation";
 function HeroImage() {
   return (
@@ -11,6 +13,11 @@ function HeroImage() {
         }}
       />
       <CircleAnimation />
+      <FontAwesomeIcon
+        icon={faAngleDown}
+        size="3x"
+        className="absolute bottom-0 z-5 text-slate-200 animate-bounce"
+      />
     </div>
   );
 }
