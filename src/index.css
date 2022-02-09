@@ -3,12 +3,12 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-.testing-circle {
+.animation-circle {
   width: 250px;
   height: 250px;
   border-radius: 50%;
 }
-.testing-circle-block {
+.animation-circle-block {
   width: 230px;
   height: 230px;
   border-radius: 50%;
