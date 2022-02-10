@@ -7,7 +7,13 @@ function HeroImage() {
     <div className="hero-image relative flex flex-col justify-center items-center container bg-cover mx-auto h-screen">
       <Typewriter
         options={{
-          strings: ["Daniel Isaksen", "Frontend", "HTML CSS JS", "React"],
+          strings: [
+            "Daniel Isaksen",
+            "Frontend",
+            "HTML CSS JS",
+            "React",
+            "Tailwind CSS",
+          ],
           autoStart: true,
           loop: true,
         }}
