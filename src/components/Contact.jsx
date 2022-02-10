@@ -2,7 +2,7 @@ import { contactInfo } from "../data";
 
 function Contact() {
   return (
-    <section className="max-w-screen-lg my-5 mx-auto p-5 text-slate-900 shadow-sm rounded hover:animation-bounce">
+    <section className="max-w-screen-lg my-5 mx-auto p-5 text-slate-900 shadow-sm bg-slate-50 rounded hover:animation-bounce">
       <h2 className="text-4xl pb-3">Contact</h2>
       {contactInfo.map((info) => (
         <ul className="text-lg">
